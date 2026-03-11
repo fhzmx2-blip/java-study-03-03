@@ -42,7 +42,7 @@ public class 제어문_반복문_4 {
 		
 		System.out.println("\n홀 "+odd+"\n짝 "+even);
 		
-		int numberRange = 100;
+		int numberRange = 10000;
 		
 		boolean[] isPrime = new boolean[numberRange+1];
 		
