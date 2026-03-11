@@ -156,6 +156,47 @@ public class 제어문_문제 {
 			System.out.println("다르다");
 		}
 		
+		System.out.println("월 입력");
+		int a16 = scan.nextInt();
+		if (1<=a16 && a16<=12) {
+			switch(a16) {
+			case 3, 4, 5 -> System.out.println("봄");
+			case 6, 7, 8 -> System.out.println("여름");
+			case 9, 10, 11 -> System.out.println("가을");
+			case 12, 1, 2 -> System.out.println("겨울");
+			}
+		}
+		else if ((1>a16 || a16>12)) {
+			System.out.println("없는 달");
+		}
+		else {
+			System.out.println("잘못된 입력");
+		}
+		
+		int sum=0, i17=1;
+		while (i17<100) {
+			if(i17%3 != 0) {
+				i17++;
+				continue;
+		    }
+			else sum += i17;
+				i17++;
+		}
+		System.out.println(sum);
+		
+		int sum18=0,i18=1;
+		while (true) {
+		if(i18==51) break;
+		sum18+=i18;
+		i18++;  
+		} 
+		System.out.println(sum);
+
+		
+		
+		
+		
+
 		
 	}
 
