@@ -98,17 +98,18 @@ public class 제어문_문제 {
 		}
 		System.out.println(a8);
 		
-		int a9=0;
+
 		for (int i=0;i<=50;i+=5) {
-			a9+=i;
-		}
-		System.out.println(a9);
+			System.out.print(i+" ");
+		}		
+		System.out.println();
 		
 		char a10='B';
 		for (int i=0;i<=12;i+=2) {
-			System.out.println(a10);
+			System.out.print(a10+" ");
 			a10+=2;
 		}
+		System.out.println();
 		
 		System.out.println("n까지 덧셈");
 		int a11=scan.nextInt();
@@ -118,7 +119,7 @@ public class 제어문_문제 {
 		}
 		System.out.println(b11);
 		
-		for (int i=0;i<=30;i++) {
+		for (int i=1;i<=30;i++) {
 			if (i%2==0) {
 				System.out.print(i+" ");
 				if (i%6==0) {
@@ -144,8 +145,9 @@ public class 제어문_문제 {
 			if (i%3==0) {
 				continue;
 			}
-			System.out.println(i);
+			System.out.print(i+" ");
 		}
+		System.out.println();
 		
 		System.out.println("10부터 99사이 무작위값 입력");
 		int a15=scan.nextInt();
@@ -173,16 +175,16 @@ public class 제어문_문제 {
 			System.out.println("잘못된 입력");
 		}
 		
-		int sum=0, i17=1;
+		int sum17=0, i17=1;
 		while (i17<100) {
 			if(i17%3 != 0) {
 				i17++;
 				continue;
 		    }
-			else sum += i17;
+			else sum17 += i17;
 				i17++;
 		}
-		System.out.println(sum);
+		System.out.println(sum17);
 		
 		int sum18=0,i18=1;
 		while (true) {
@@ -190,7 +192,7 @@ public class 제어문_문제 {
 		sum18+=i18;
 		i18++;  
 		} 
-		System.out.println(sum);
+		System.out.println(sum18);
 
 		
 		
