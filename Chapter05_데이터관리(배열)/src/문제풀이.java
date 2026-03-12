@@ -1,3 +1,7 @@
+/*
+ *  String 초기화는 null??
+ */
+
 import java.util.Arrays;
 import java.util.Random;
 
