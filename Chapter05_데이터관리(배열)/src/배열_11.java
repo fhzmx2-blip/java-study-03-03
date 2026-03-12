@@ -1,3 +1,7 @@
+/*
+ * 
+ */
+
 import java.util.*;
 
 public class 배열_11 {
@@ -34,6 +38,7 @@ public class 배열_11 {
 		
 		String[] strWeek= {"일","월","화","수","목","금","토"};
 		int week=total%7;
+		
 		
 		System.out.print("입력된 날의 요일: "+strWeek[week]);
 	}

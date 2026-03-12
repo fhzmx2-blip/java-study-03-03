@@ -1,6 +1,8 @@
 /*
+ * 
  *  String 초기화는 null??
  */
+//
 
 import java.util.Arrays;
 import java.util.Random;
@@ -114,7 +116,6 @@ public class 문제풀이 {
 		}
 		Arrays.sort(a8_2);
 		System.out.println(Arrays.toString(a8_2));
-		
 		
 		
 		System.out.println(Arrays.toString(a8));
