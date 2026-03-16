@@ -170,7 +170,7 @@ public class 문제풀이 {
 		if (a) {
 			System.out.println("윤년");
 		} else {
-			System.out.println("윤년 아니야");
+			System.out.println("윤년 아님");
 		}
 	}
 		
