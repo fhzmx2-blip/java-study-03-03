@@ -5,8 +5,8 @@ public class practice {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Random r = new Random();
-		int row = 10;
-		int column = 10;
+		int row = 20;
+		int column = 20;
 		
 		int[][] matrix = new int[row][column];
 		for(int i=0;i<matrix.length;i++) {
