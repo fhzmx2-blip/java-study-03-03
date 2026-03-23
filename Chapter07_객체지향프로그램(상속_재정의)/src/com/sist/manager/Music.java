@@ -38,6 +38,7 @@ public class Music {
 	public void setIdcrement(int idcrement) {
 		this.idcrement = idcrement;
 	}
+	
 	private String title;
 	private String album;
 	private String state;
