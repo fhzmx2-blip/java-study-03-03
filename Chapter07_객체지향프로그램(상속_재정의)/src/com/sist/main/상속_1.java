@@ -8,11 +8,14 @@ package com.sist.main;
 
 import javax.swing.JFrame;
 
-public class 상속_1 extends JFrame{
-	Jframe f=i
+public class 상속_1 {
+	JFrame f=new JFrame();
+	public 상속_1() {
+		f.setSize(800, 600);
+		f.setVisible(true);
+	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		s
+		new 상속_1();
 	}
 
 }

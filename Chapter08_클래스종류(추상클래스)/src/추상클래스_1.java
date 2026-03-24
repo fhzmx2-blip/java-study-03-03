@@ -1,0 +1,6 @@
+
+public class 추상클래스_1 {
+	public static void main(String[] args) {
+		
+	}
+}
